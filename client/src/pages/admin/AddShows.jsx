@@ -132,7 +132,7 @@ const AddShows = () => {
           <ul className="space-y-3">
             {Object.entries(dateTimeSelection).map(([date, times]) => (
               <li key={date}>
-                <div className="font-medium flex-col">{date}</div>
+                <div className="font-medium">{date}</div>
                 <div className="flex flex-wrap gap-2 mt-1 text-sm">
                   {times.map((time) => (
                     <div
